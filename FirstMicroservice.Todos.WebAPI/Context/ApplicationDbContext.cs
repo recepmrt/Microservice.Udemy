@@ -1,6 +1,14 @@
-﻿namespace FirstMicroservice.Todos.WebAPI.Context;
+﻿using FirstMicroservice.Todos.WebAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
-public class ApplicationDbContext
+namespace FirstMicroservice.Todos.WebAPI.Context;
+
+public sealed class ApplicationDbContext : DbContext
 {
+    public ApplicationDbContext(DbContextOptions options) : base(options)
+    {
+        
+    }
     
+    public DbSet<Todo> Todos { get; set; }
 }

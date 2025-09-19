@@ -5,7 +5,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "195.155.147.201",
+          "Host": "<Host>",
             "Port": 5001
         }
       ],
@@ -17,7 +17,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "195.155.147.201",
+          "Host": "<Host>",
           "Port": 5002
         }
       ],
